@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class DoorTeleport : MonoBehaviour
+public class StairwayToHeaven : MonoBehaviour
 {
     public Transform targetPosition;
 
@@ -9,7 +9,7 @@ public class DoorTeleport : MonoBehaviour
 
     void Update()
     {
-        if (playerInRange && Input.GetKeyDown(KeyCode.E))
+        if (playerInRange && Input.GetKeyDown(KeyCode.C))
         {
             player.transform.position = targetPosition.position;
         }
