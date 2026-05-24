@@ -312,7 +312,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ee890ab09e812e8e860c94b6df08e11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorMessage
-  message: {fileID: 108781847}
+  message: {fileID: 506161672}
 --- !u!1 &90658415 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5834098652703905443, guid: 2425af214191818c1ae0cb1edf64cfe3, type: 3}
@@ -389,7 +389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ee890ab09e812e8e860c94b6df08e11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorMessage
-  message: {fileID: 108781847}
+  message: {fileID: 506161672}
 --- !u!1 &108781847
 GameObject:
   m_ObjectHideFlags: 0
@@ -1555,7 +1555,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 605738665325670430, guid: c0497f29524eabf6dbc36d881dde9aee, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 624620150598545234, guid: c0497f29524eabf6dbc36d881dde9aee, type: 3}
       propertyPath: m_SortingOrder
@@ -1571,7 +1571,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1134161426375482719, guid: c0497f29524eabf6dbc36d881dde9aee, type: 3}
       propertyPath: m_SortingOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1154456560581394923, guid: c0497f29524eabf6dbc36d881dde9aee, type: 3}
       propertyPath: m_SortingOrder
@@ -1615,7 +1615,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2156258688324379801, guid: c0497f29524eabf6dbc36d881dde9aee, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2287584526452988612, guid: c0497f29524eabf6dbc36d881dde9aee, type: 3}
       propertyPath: m_SortingOrder
@@ -1851,7 +1851,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7334898741635790033, guid: c0497f29524eabf6dbc36d881dde9aee, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7466577691297414038, guid: c0497f29524eabf6dbc36d881dde9aee, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3068,7 +3068,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ee890ab09e812e8e860c94b6df08e11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorMessage
-  message: {fileID: 108781847}
+  message: {fileID: 506161672}
 --- !u!1 &737509059 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3480077205018656381, guid: c0497f29524eabf6dbc36d881dde9aee, type: 3}
@@ -3878,7 +3878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ee890ab09e812e8e860c94b6df08e11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorMessage
-  message: {fileID: 108781847}
+  message: {fileID: 506161672}
 --- !u!1 &1138536969 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4976885407253355876, guid: c0497f29524eabf6dbc36d881dde9aee, type: 3}
@@ -5330,7 +5330,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ee890ab09e812e8e860c94b6df08e11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorMessage
-  message: {fileID: 108781847}
+  message: {fileID: 506161672}
 --- !u!1 &1551082332
 GameObject:
   m_ObjectHideFlags: 0
@@ -6443,7 +6443,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ee890ab09e812e8e860c94b6df08e11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorMessage
-  message: {fileID: 108781847}
+  message: {fileID: 506161672}
 --- !u!1 &1906591564
 GameObject:
   m_ObjectHideFlags: 0
