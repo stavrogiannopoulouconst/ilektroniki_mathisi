@@ -5,7 +5,7 @@ public class QuizObject : MonoBehaviour
 {
     public GameObject quizPanel;
     public TMP_Text questionText;
-    public TMP_Text resultText; // Correct / Wrong text
+    public TMP_Text resultText;
     public TMP_InputField answerInput;
 
     [TextArea]
@@ -14,20 +14,23 @@ public class QuizObject : MonoBehaviour
     public string correctAnswer;
 
     private bool playerNear = false;
+    private PlayerMovement playerMovement;
 
     void Update()
     {
         if (playerNear && Input.GetKeyDown(KeyCode.E))
         {
             questionText.text = question;
-
-            // clear old result text
             resultText.text = "";
-
-            // clear input field
             answerInput.text = "";
 
             quizPanel.SetActive(true);
+
+            // stop player movement
+            if (playerMovement != null)
+            {
+                playerMovement.enabled = false;
+            }
         }
     }
 
@@ -36,18 +39,13 @@ public class QuizObject : MonoBehaviour
         if (answerInput.text.Trim() == correctAnswer)
         {
             resultText.text = "Correct!";
-
-            // clear text field
             answerInput.text = "";
 
-            // close panel after a moment
             Invoke(nameof(CloseQuiz), 1.5f);
         }
         else
         {
             resultText.text = "Wrong!";
-            
-            // clear text field
             answerInput.text = "";
         }
     }
@@ -55,6 +53,12 @@ public class QuizObject : MonoBehaviour
     void CloseQuiz()
     {
         quizPanel.SetActive(false);
+
+        // enable movement again
+        if (playerMovement != null)
+        {
+            playerMovement.enabled = true;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -62,6 +66,7 @@ public class QuizObject : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerNear = true;
+            playerMovement = other.GetComponent<PlayerMovement>();
         }
     }
 
