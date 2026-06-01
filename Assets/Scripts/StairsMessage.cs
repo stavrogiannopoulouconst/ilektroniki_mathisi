@@ -6,8 +6,6 @@ public class DoorMessage : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Touched");
-
         if (other.CompareTag("Player"))
         {
             message.SetActive(true);

@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Door : MonoBehaviour
+public class ChangeScene : MonoBehaviour
 {
     public string sceneName;
 
@@ -9,7 +9,7 @@ public class Door : MonoBehaviour
 
     void Update()
     {
-        if (playerNear && Input.GetKeyDown(KeyCode.E))
+        if (playerNear && Input.GetKeyDown(KeyCode.N))
         {
             SceneManager.LoadScene(sceneName);
         }
