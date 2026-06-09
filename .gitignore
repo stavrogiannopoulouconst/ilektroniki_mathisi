@@ -1,3 +1,6 @@
+# Visual Studio cache directory
+.vs/
+
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -5,6 +8,9 @@
 [Bb]uilds/
 [Ll]ogs/
 UserSettings/
+
+.utmp/
+*.log
 
 *.csproj
 *.unityproj
@@ -17,3 +23,8 @@ UserSettings/
 
 .DS_Store
 Thumbs.db
+
+*.blob
+
+# Burst compiler debug info
+*_BurstDebugInformation_DoNotShip/
