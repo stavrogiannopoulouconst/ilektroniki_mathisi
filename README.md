@@ -1,0 +1,8 @@
+![start scene](https://github.com/stavrogiannopoulouconst/ilektroniki_mathisi/blob/50ac2dcfe233d4bbd0b6b7a5738a20bbd5ccfbae/Assets/Images/1.png)
+![town and tavern scenes](https://github.com/stavrogiannopoulouconst/ilektroniki_mathisi/blob/50ac2dcfe233d4bbd0b6b7a5738a20bbd5ccfbae/Assets/Images/2.png)
+![cemetery and church scenes](https://github.com/stavrogiannopoulouconst/ilektroniki_mathisi/blob/50ac2dcfe233d4bbd0b6b7a5738a20bbd5ccfbae/Assets/Images/3.png)
+![explaining scenes](https://github.com/stavrogiannopoulouconst/ilektroniki_mathisi/blob/50ac2dcfe233d4bbd0b6b7a5738a20bbd5ccfbae/Assets/Images/4.png)
+![explaining assets](https://github.com/stavrogiannopoulouconst/ilektroniki_mathisi/blob/50ac2dcfe233d4bbd0b6b7a5738a20bbd5ccfbae/Assets/Images/5.png)
+![questions](https://github.com/stavrogiannopoulouconst/ilektroniki_mathisi/blob/50ac2dcfe233d4bbd0b6b7a5738a20bbd5ccfbae/Assets/Images/6.png)
+![explaining scripts](https://github.com/stavrogiannopoulouconst/ilektroniki_mathisi/blob/50ac2dcfe233d4bbd0b6b7a5738a20bbd5ccfbae/Assets/Images/7.png)
+![explaining scripts 2](https://github.com/stavrogiannopoulouconst/ilektroniki_mathisi/blob/50ac2dcfe233d4bbd0b6b7a5738a20bbd5ccfbae/Assets/Images/8.png)
